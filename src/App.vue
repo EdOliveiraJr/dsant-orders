@@ -1,6 +1,9 @@
 <template>
   <header>
-    <h1>Pedidos D'Sant</h1>
+    <div class="title">
+      <img src="../public/logo.png" alt="">
+      <h1>Pedidos D'Sant</h1>
+    </div>
     <nav>
       <router-link to="/">Home</router-link>
       <router-link to="/orders">Pedidos</router-link>

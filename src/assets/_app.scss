@@ -18,6 +18,16 @@
     width: 100%;
     z-index: 1;
 
+    .title {
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 4rem;
+        margin-right: 0.5rem;
+      }
+    }
+    
     nav {
       display: flex;
       align-items: center;
