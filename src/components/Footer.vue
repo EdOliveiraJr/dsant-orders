@@ -1,12 +1,12 @@
 <template>
-  <div class="home-view">
-    <h2>Home</h2>
+  <div class="footer">
+    <p>Developed Ed Oliveira® 2024</p>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HomeView'
+  name: 'Footer'
 }
 </script>
 
