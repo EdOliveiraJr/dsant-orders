@@ -1,0 +1,13 @@
+@import 'variables';
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: ($orange);
+  font-size: x-small;
+  height: 1.5rem;
+}
