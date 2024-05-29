@@ -4,8 +4,10 @@
   display: flex;
   flex-direction: column;
   position: relative;
-
+  
+  
   header {
+    padding: 1rem;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -36,6 +38,13 @@
       a {
         padding: 0.5rem;
         text-decoration: none;
+        font-weight: bold;
+      }
+
+      a:hover{
+        background-color: rgb(255, 179, 0);
+        border-radius: 15%;
+        text-decoration: underline;
       }
     
     }
@@ -45,6 +54,7 @@
   main {
     position: relative;
     z-index: 0;
+    padding: 1rem;
     margin-bottom: 1.5rem;
     min-height: 62.5rem;
   }
