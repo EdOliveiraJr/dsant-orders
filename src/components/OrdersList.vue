@@ -17,12 +17,15 @@
       <p>Produto: <strong>{{ order.product }}</strong></p>
       <hr>
     </div>
+    <OrdersForm header="Adicionar Pedido" :visible="true"/>
   </div>
 </template>
 
-<script> 
+<script>
+import OrdersForm from './OrdersForm.vue' 
 export default {
   name: 'OrdersList',
+  components: { OrdersForm },
   data(){
     return {
       orders: [
