@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="title">
-      <img src="../public/logo.png" alt="">
+      <img src="/logo.png" alt="">
       <h1>Pedidos D'Sant</h1>
     </div>
     <nav>
